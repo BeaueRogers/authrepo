@@ -29,7 +29,7 @@ src \
 
 # concat bower_components to public/lib
 if [ -d "bower_components" ]; then
-./node_modules/.bin/bowcat . -o public/lib -m
+./node_modules/.bin/bowcat -o public/lib
 fi
 
 # clean unneeded files
